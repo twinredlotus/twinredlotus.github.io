@@ -1,3 +1,3 @@
 # About
--[] Check me
+- [ ] Check me
 
