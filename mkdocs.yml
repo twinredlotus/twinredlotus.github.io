@@ -7,9 +7,9 @@ nav:
     - About: about.md
 markdown_extensions:
   - def_list
+  - admonition
   - attr_list
   - md_in_html
-  - pymdownx.superfences
   - tables
   - footnotes
   - pymdownx.critic
@@ -17,9 +17,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.superfences
   - attr_list
   - md_in_html
-  - admonition
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
