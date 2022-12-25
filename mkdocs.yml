@@ -2,6 +2,27 @@ site_name: Crypt
 #site_url: https://twinredlotus.com
 theme:
   name: material
+  #logo: assets/logo.png
+  #favicon: images/favicon.png
+  features:
+    - search.suggest
+    - search.highlight
+    - header.autohide
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 nav:
     - Home: index.md
     - About: about.md
@@ -23,3 +44,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
+plugins:
+  - search
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://twinredlotus.github.com
+      name: twinredlotus on Github
